@@ -1,0 +1,69 @@
+    .imiig {
+        width: 200px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .imiiig {
+        width: 170px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .card {
+        background: rgba( 239, 232, 232, 0.2);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+        backdrop-filter: blur( 3.5px);
+        -webkit-backdrop-filter: blur( 3.5px);
+        border-radius: 50px;
+        border: 1px solid rgba( 255, 255, 255, 0.18);
+    }
+    
+    .huhu {
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+        backdrop-filter: blur( 4px);
+    }
+    
+    .h6fonts {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    body {
+        background-image: url("https://www.holborn.com/wp-content/uploads/2017/01/extreme-cold-landscape.jpg");
+        background-color: #cccccc;
+        background-size: cover;
+    }
+    
+    input::placeholder {
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .lazo {
+        width: 35rem;
+    }
+    
+    .condition {
+        display: flex;
+        gap: 30px;
+    }
+    
+    @media screen and (max-width :420px) {
+        .imiig {
+            width: 150px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .lazo {
+            width: 22rem;
+        }
+        .condition {
+            display: grid;
+            gap: 15px;
+        }
+        body {
+            background-image: url("https://thumbs.dreamstime.com/b/white-tree-river-21888282.jpg");
+            background-color: #cccccc;
+            background-size: cover;
+        }
+    }
